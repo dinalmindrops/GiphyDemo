@@ -68,7 +68,7 @@
                                                 <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZV2-cp-4Ku">
                                                     <rect key="frame" x="0.0" y="0.0" width="201" height="201"/>
                                                     <subviews>
-                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Rvj-xY-tIS">
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Rvj-xY-tIS">
                                                             <rect key="frame" x="2" y="2" width="197" height="197"/>
                                                             <color key="backgroundColor" red="1" green="0.80392156859999997" blue="0.0" alpha="0.2037200928" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <userDefinedRuntimeAttributes>
@@ -96,6 +96,9 @@
                                             </constraints>
                                         </collectionViewCellContentView>
                                         <size key="customSize" width="201" height="201"/>
+                                        <connections>
+                                            <outlet property="imageViewGif" destination="Rvj-xY-tIS" id="8b7-vD-Es3"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>

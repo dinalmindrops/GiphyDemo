@@ -8,5 +8,5 @@
 import UIKit
 
 class GifCell: UICollectionViewCell {
-    
+    @IBOutlet weak var imageViewGif: UIImageView!
 }
