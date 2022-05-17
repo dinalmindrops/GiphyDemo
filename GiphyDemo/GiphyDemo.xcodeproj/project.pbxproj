@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4EBA139C9BCAB4C846B9A1D4 /* Pods_GiphyDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 786170BE4E107F8A49A36842 /* Pods_GiphyDemo.framework */; };
-		BD23912D28324D7D00DFC24B /* Gif-Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD23912C28324D7D00DFC24B /* Gif-Swift.swift */; };
 		BD2391392832623400DFC24B /* ModelFixedHeightDownsampled.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD23912E2832623200DFC24B /* ModelFixedHeightDownsampled.swift */; };
 		BD23913A2832623400DFC24B /* ModelLooping.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD23912F2832623300DFC24B /* ModelLooping.swift */; };
 		BD23913B2832623400DFC24B /* ModelOriginal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2391302832623300DFC24B /* ModelOriginal.swift */; };
@@ -35,7 +34,6 @@
 /* Begin PBXFileReference section */
 		786170BE4E107F8A49A36842 /* Pods_GiphyDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GiphyDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		844B9D08C0DC1A3D955B13AB /* Pods-GiphyDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiphyDemo.release.xcconfig"; path = "Target Support Files/Pods-GiphyDemo/Pods-GiphyDemo.release.xcconfig"; sourceTree = "<group>"; };
-		BD23912C28324D7D00DFC24B /* Gif-Swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Gif-Swift.swift"; sourceTree = "<group>"; };
 		BD23912E2832623200DFC24B /* ModelFixedHeightDownsampled.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelFixedHeightDownsampled.swift; sourceTree = "<group>"; };
 		BD23912F2832623300DFC24B /* ModelLooping.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelLooping.swift; sourceTree = "<group>"; };
 		BD2391302832623300DFC24B /* ModelOriginal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelOriginal.swift; sourceTree = "<group>"; };
@@ -125,15 +123,15 @@
 		BD7B2D1F282E781D0010D714 /* GiphyDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BDB96D9F2833C9EB009EFA45 /* Controller */,
 				BDF8C20B28323D9500D751EF /* Services */,
 				BDF8C20828323C9400D751EF /* Common */,
+				BD239144283263EE00DFC24B /* Models */,
 				BD7B2D3C282E961C0010D714 /* Cell */,
 				BD7B2D20282E781D0010D714 /* AppDelegate.swift */,
-				BD7B2D24282E781D0010D714 /* ViewController.swift */,
 				BD7B2D26282E781D0010D714 /* Main.storyboard */,
 				BD7B2D29282E781E0010D714 /* Assets.xcassets */,
 				BD7B2D2B282E781E0010D714 /* LaunchScreen.storyboard */,
-				BD239144283263EE00DFC24B /* Models */,
 				BD7B2D2E282E781E0010D714 /* Info.plist */,
 			);
 			path = GiphyDemo;
@@ -147,11 +145,18 @@
 			path = Cell;
 			sourceTree = "<group>";
 		};
+		BDB96D9F2833C9EB009EFA45 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BD7B2D24282E781D0010D714 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		BDF8C20828323C9400D751EF /* Common */ = {
 			isa = PBXGroup;
 			children = (
 				BDF8C20928323CAA00D751EF /* Globals.swift */,
-				BD23912C28324D7D00DFC24B /* Gif-Swift.swift */,
 				BDB96D9B28339AC1009EFA45 /* UIScrollView+BottomRefreshControl.h */,
 				BDB96D9C28339AC1009EFA45 /* UIScrollView+BottomRefreshControl.m */,
 				BDB96D9E28339B79009EFA45 /* GiphyDemo-Bridging-Header.h */,
@@ -293,7 +298,6 @@
 			files = (
 				BD2391392832623400DFC24B /* ModelFixedHeightDownsampled.swift in Sources */,
 				BD23913D2832623400DFC24B /* ModelImage.swift in Sources */,
-				BD23912D28324D7D00DFC24B /* Gif-Swift.swift in Sources */,
 				BD23913F2832623400DFC24B /* ModelOnclick.swift in Sources */,
 				BD2391402832623400DFC24B /* ModelUser.swift in Sources */,
 				BD23913B2832623400DFC24B /* ModelOriginal.swift in Sources */,

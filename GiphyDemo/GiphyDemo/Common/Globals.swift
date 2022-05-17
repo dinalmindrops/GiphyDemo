@@ -19,10 +19,8 @@ func HasInternet() -> Bool {
     }
 }
 
-
 class API_Constant: NSObject {
     static let BASE_URL = "https://api.giphy.com/v1/gifs/"
-    
     
     static let GET_TRENDING_GIF = API_Constant.BASE_URL + "trending"
     static let GET_SEARCH_GIF = API_Constant.BASE_URL + "search"
@@ -30,7 +28,7 @@ class API_Constant: NSObject {
 
 
 class CommonClass: NSObject{
-    func show() {
+    func show_hud() {
         SVProgressHUD.show()
         SVProgressHUD.setDefaultMaskType(.clear)
         SVProgressHUD.setBackgroundColor(.black)
