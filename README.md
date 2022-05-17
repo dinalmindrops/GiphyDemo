@@ -20,8 +20,11 @@ You can clear your searched text from search bar using X button next to search b
 
 # Libraries used
 SVProgressHUD - To show HUD loader in app
+
 SDWebImage - To load the GIF in imageview
+
 Alamofire - To call the backend services
+
 Reachability - To check the internet availability
 
 # Instructions to run the app
