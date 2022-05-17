@@ -5,8 +5,11 @@ GIPHY, is an American online database and search engine that allows users to sea
 
 # TechStacks
 Frontend: iOS, Swift 5
+
 Backend: Giphy API (https://developers.giphy.com/docs/api/endpoint/)
+
 IDE: Xcode 13.2.1
+
 iOS Deployment Target: version: 15.2
 
 # Features 
@@ -33,4 +36,4 @@ https://drive.google.com/drive/folders/1ee40_TnHyMUuX6zcgiZylAJe9iYMm0n2?usp=sha
 # Video link to app workaround
 https://drive.google.com/file/d/1xOo49kOq8HLL8kEEzk6SrKkG9cFAU_On/view?usp=sharing
 
-# Many Thanks!!
+**Many Thanks!!
